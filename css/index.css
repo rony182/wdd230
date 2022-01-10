@@ -9,7 +9,7 @@ body {
 .grid-header {
   display: grid;
   grid-template-columns: 1em 1em;
-  grid-gap: 1em;
+  grid-gap: 1.5em;
   background-color:#0a4f77;
   color:#d0d5f0;
 }
@@ -19,6 +19,12 @@ body {
 .title-header {
   grid-column: 2/3;
   align-self:center;
+  text-align:center;
+  align-items: center;
+}
+footer {
+  background-color:#0a4f77;
+  color:#d0d5f0;
   text-align:center;
   align-items: center;
 }
