@@ -5,6 +5,14 @@ body {
   font-size: 20px;
   margin: 0 auto;
   color:  #0A1556;
-  align-items: center;
-  align-self: center;
+}
+.grid-header {
+  display: grid;
+  grid-template-columns: 100px auto;
+}
+.logo-box{
+  grid-column: 1/2;
+}
+.title-header {
+  grid-column: 2/3;
 }
