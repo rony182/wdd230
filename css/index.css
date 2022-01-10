@@ -8,7 +8,10 @@ body {
 }
 .grid-header {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 1em 1em;
+  grid-gap: 1em;
+  background-color:#8AB6D0;
+  color:#0A1556;
 }
 .logo-box{
   grid-column: 1/2;
