@@ -2,13 +2,13 @@ body {
   background-color: white;
   font-family: Lato, Helvetica, sans-serif;
 
-  color:  #560a0a;
+  
 }
 .grid-header {
   display: grid;
   grid-template-columns: 1em 1em;
   grid-gap: 1.5em;
-  background-color:#0a4f77;
+  background-color:#0b0e0f;
   color:#d0d5f0;
 }
 .logo-box{
