@@ -1,28 +1,32 @@
 body {
   background-color: white;
   font-family: Lato, Helvetica, sans-serif;
-
-  
+  padding: 5px 25px;
+  font-size: 20px;
+  margin: 0 auto;
+  color:  #0A1556;
+  max-width:780px;
 }
 .grid-header {
   display: grid;
   grid-template-columns: 1em 1em;
-  grid-gap: 1.5em;
-  background-color:#0b0e0f;
+  grid-gap: 1em;
+  background-color:#0a4f77;
   color:#d0d5f0;
 }
 .logo-box{
   grid-column: 1/2;
+  grid-row: 1/1;
+  padding: 10px;
 }
 .title-header {
   grid-column: 2/3;
   align-self:center;
   text-align:center;
   align-items: center;
+  grid-row: 1/1;
 }
 footer {
   background-color:#0a4f77;
   color:#d0d5f0;
-  text-align:center;
-  align-items: center;
 }
