@@ -23,7 +23,7 @@ body {
   grid-column: 2/3;
   align-self:center;
   text-align:center;
-  align-items: center;
+  font-size:60px;
   grid-row: 1/2;
 }
 footer {
