@@ -39,13 +39,17 @@ footer {
   border-radius:8px 8px 8px 8px;
   text-align: center;
   padding: 0.5em;
+  padding-top: 1em;
 }
 ul {
-  padding: 1em;
+  text-indent: 10px;
 }
 span {
   font-weight: 700;
 }
 #currentdate {
   color:rgb(245, 218, 101)
+}
+.paragraph{
+  padding: 0.5em;
 }
