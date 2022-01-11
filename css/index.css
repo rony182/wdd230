@@ -9,14 +9,14 @@ body {
 }
 .grid-header {
   display: grid;
-  grid-template-columns: 1em 1em;
+  grid-template-columns:1fr 1fr;
   grid-gap: 1em;
   background-color:#0a4f77;
   color:#d0d5f0;
 }
 .logo-box{
   grid-column: 1/2;
-  grid-row: 1/1;
+  grid-row: 1/2;
   padding: 10px;
 }
 .title-header {
@@ -24,9 +24,10 @@ body {
   align-self:center;
   text-align:center;
   align-items: center;
-  grid-row: 1/1;
+  grid-row: 1/2;
 }
 footer {
   background-color:#0a4f77;
   color:#d0d5f0;
+  width: 2em;
 }
