@@ -1,18 +1,32 @@
+let daynames = [
+	'Sunday',
+	'Monday',
+	'Tuesday',
+	'Wednesday',
+	'Thursday',
+	'Friday',
+	'Saturday'
+];
+let months =[
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December',
+]
 
-let currentDateAndTime = Date()
-
-console.log("It is now "+currentDateAndTime)
-
-
-let theTotal = total(1,2,3,4,5,6,7,8,9,10)
-
-console.log("The total is "+theTotal)
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ', ' + monthName + ' ' +d.getDate() + ', ' + year;
 
 
-function total(...theNumbers){
-	let sum = 0
-	for(let aNumber in theNumbers){
-		sum += aNumber*1//Want to know why aNumber is multiplied by 1? Remove it and find out. :)
-	}
-	return sum
-}
+document.getElementById('currentdate').textContent = fulldate;
