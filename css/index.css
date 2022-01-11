@@ -21,10 +21,11 @@ body {
   grid-column: 1/2;
   grid-row: 1/4;
   padding:1em;
-  box-shadow: 1px 1px 4px 1px rgb(248, 243, 243);
   border-radius:3px 3px 3px 3px;
   height: 100%;
   align-self:center;
+  place-self: center;
+  align-content: center;
 }
 .title-header {
   grid-column: 2/3;
