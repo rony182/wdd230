@@ -13,6 +13,7 @@ body {
   grid-gap: 1em;
   background-color:#0a4f77;
   color:#d0d5f0;
+  height: 100%;
 }
 .logo-box{
   grid-column: 1/2;
@@ -31,5 +32,6 @@ body {
 footer {
   background-color:#0a4f77;
   color:#d0d5f0;
-  width: 2em;
+  width: 100%;
+
 }
