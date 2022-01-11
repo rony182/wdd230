@@ -9,7 +9,7 @@ body {
 }
 .grid-header {
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 2fr;
   
   background-color:#0a4f77;
   color:#d0d5f0;
@@ -37,6 +37,8 @@ footer {
   color:#d0d5f0;
   max-width: 100%;
   border-radius:8px 8px 8px 8px;
+  text-align: center;
+  padding: 0.5em;
 }
 ul {
   padding: 1em;
