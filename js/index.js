@@ -27,8 +27,13 @@ let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
 
+let hour = d.getHours();
+let minutes =d.getMinutes();
+let seconds = d.getSeconds();
 
-let fulldate = dayName + ', ' + monthName + ' ' +d.getDate() + ', ' + year + ', ' + d.getHours();
+
+
+let fulldate = dayName + ', ' + monthName + ' ' +d.getDate() + ', ' + year + ', ' + hour + ':' + minutes + ':' + seconds;
 
 
 document.getElementById('currentdate').textContent = fulldate;
@@ -40,7 +45,10 @@ try {
 		weekday: 'long',
 		day: 'numeric',
 		month: 'short',
-		year: 'numeric'
+		year: 'numeric',
+		hour: 'numeric',
+		minutes: 'numeric',
+		seconds: 'numeric'
 	};
 	document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
 } catch (e) {
