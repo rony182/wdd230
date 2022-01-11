@@ -18,7 +18,7 @@ body {
 }
 .logo-box{
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 1/4;
   padding: 10px;
   box-shadow: 1px 1px 4px 1px #888;
   border-radius:3px 3px 3px 3px;
@@ -28,7 +28,7 @@ body {
   align-self:center;
   text-align:center;
   font-size:60px;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 footer {
   background-color:#0a4f77;
