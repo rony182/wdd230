@@ -9,7 +9,7 @@ body {
 }
 .grid-header {
   display: grid;
-  grid-template-columns:1fr 2fr;
+  grid-template-columns:1fr 3fr;
   
   background-color:#0a4f77;
   color:#d0d5f0;
