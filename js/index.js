@@ -26,10 +26,14 @@ let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + ', ' + monthName + ' ' +d.getDate() + ', ' + year;
+
+
+let fulldate = dayName + ', ' + monthName + ' ' +d.getDate() + ', ' + year + ', ' + d.getHours();
 
 
 document.getElementById('currentdate').textContent = fulldate;
+
+
 
 try {
 	let options = {
