@@ -2,7 +2,7 @@ body {
   background-color: white;
   font-family: Lato, Helvetica, sans-serif;
   padding: 5px 25px;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0 auto;
   color:  #0A1556;
   max-width: 600px;
@@ -10,11 +10,9 @@ body {
 .grid-header {
   display: grid;
   grid-template-columns:1fr 3fr;
-  
   background-color:#0a4f77;
   color:#ffffff;
-  
-  border-radius:8px 8px 8px 8px;
+  border-radius:1px 1px 1px 1px;
   overflow: hidden;
 }
 .logo-box{
@@ -29,7 +27,7 @@ body {
   grid-column: 2/3;
   align-self:center;
   text-align:center;
-  font-size:30px;
+  font-size:13px;
   grid-row: 2/3;
   font-family: 'Roboto Mono', monospace;
 }
@@ -37,10 +35,11 @@ footer {
   background-color:#0a4f77;
   color:#ffffff;
   max-width: 100%;
-  border-radius:8px 8px 8px 8px;
+  border-radius:1px 1px 1px 1px;
   text-align: center;
   padding: 0.5em;
   padding-top: 1em;
+  font-size:12px;
 }
 ul {
   text-indent: 10px;
@@ -52,7 +51,8 @@ span {
   color:rgb(245, 218, 101)
 }
 .paragraph{
-  padding: 0.5em;
+  padding: 0.2em;
+  font-size:13px;
   
 }
 .f-paragraph{

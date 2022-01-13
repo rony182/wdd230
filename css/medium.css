@@ -1,18 +1,37 @@
 @media only screen and (min-width: 32.5em) {
   .title-header {
-    font-size:15px;
+    font-size:30px;
     font-family: 'Roboto Mono', monospace;
-    color:#1a265c;
+    
   }
   .logo-box{
     padding:0.5em;
     height: 100%;
   }
   .grid-header {
-    background-color:#04273b;
-    border-radius:1px 1px 1px 1px;
+    background-color:#133950;
+    color:#dbdbdb;
+    border-radius:8px 8px 8px 8px;
+    
   }
   body {
     font-size: 15px;
+  }
+  footer {
+    background-color:#133950;
+    color:#dbdbdb;
+    border-radius:8px 8px 8px 8px;
+    font-size:18px;
+  }
+  #currentdate {
+    color:rgb(236, 203, 56)
+  }
+  .paragraph{
+    padding: 0.5em;
+    font-size:18px;
+    
+  }
+  .f-paragraph{
+    color:rgb(236, 203, 56)
   }
 }
