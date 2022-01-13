@@ -13,7 +13,7 @@ body {
   
   background-color:#0a4f77;
   color:#ffffff;
-  font-family: 'Roboto Mono', monospace;
+  
   border-radius:8px 8px 8px 8px;
   overflow: hidden;
 }
@@ -31,6 +31,7 @@ body {
   text-align:center;
   font-size:30px;
   grid-row: 2/3;
+  font-family: 'Roboto Mono', monospace;
 }
 footer {
   background-color:#0a4f77;
