@@ -1,0 +1,14 @@
+@media only screen and (min-width: 720px) {
+  main{
+    clear: both;
+    column-count: 2;
+    column-rule: 2px solid rgb(255, 255, 255);
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .third-grid {
+    grid-column: 1/3;
+  }
+  
+}
