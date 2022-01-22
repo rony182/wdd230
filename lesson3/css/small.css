@@ -60,7 +60,7 @@ main {
     min-height: 10rem;
     
 }
-.first-header{
+.first-header, h2{
     font-family: 'Roboto Mono', monospace;
 }
 
