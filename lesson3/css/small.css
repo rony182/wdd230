@@ -71,7 +71,23 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
-
+.colors td{
+    width: 25%;
+    height: 3em;
+  }
+.primary {
+    background-color: #0a4f77;
+  }
+  .secondary {
+    background-color: #ffffff;
+  }
+  .accent1 {
+    background-color: #64a9d6;
+  }
+  .accent2{
+      color: #ffffff;
+    background-color: #000000;
+  }
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
