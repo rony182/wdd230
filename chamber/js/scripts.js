@@ -1,3 +1,9 @@
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
+
+
+
 function toggleMenu() {
   
   document.getElementById('primaryNav').classList.toggle('open');
@@ -23,6 +29,3 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;

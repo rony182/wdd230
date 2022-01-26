@@ -54,3 +54,7 @@ try {
 } catch (e) {
 	alert('Error With code or your browser does not support Locale');
 }
+
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
