@@ -21,6 +21,15 @@ const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
+const banner = document.getElementById('banner');
+const dayNumber=now.getDay();
+console.log(dayNumber);
+if (dayNumber==2) {
+	banner.classList.add('showme');
+} else {
+	banner.classList.add('hideme')
+}
+
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);

@@ -106,6 +106,17 @@ nav ul.open {display: block;}
   display: block;
 }
 /*----------- MAIN --------------*/
+div#banner {
+  background-color: #49b4fb;
+  color: #ffffff;
+  border:3px solid #000;
+  text-align: center;
+  padding: 2em;
+  margin-top: 1em;
+  font-size: large;
+}
+div.showme{display: block;}
+div.hideme{display: none;}
 main {
     padding: 0 2%;
     min-height: 10rem;
@@ -118,6 +129,9 @@ main {
 .f-container p {
   background-color: #cccccc;
   border: 1px solid rgb(68, 67, 67);
+}
+p {
+  padding: 0.5em;
 }
 
 /*----------- FOOTER --------------*/

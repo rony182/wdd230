@@ -32,6 +32,9 @@ nav ul li a{
 
 
 /*----------- MAIN --------------*/
+div#banner{
+    font-size: x-large;
+}
 .f-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
