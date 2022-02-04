@@ -108,8 +108,8 @@ nav ul.open {display: block;}
 /*----------- MAIN --------------*/
 div#banner {
   background-color: #49b4fb;
-  color: #ffffff;
-  border:3px solid #000;
+  color: #000000;
+  border:3px solid rgb(65, 65, 65);
   text-align: center;
   padding: 2em;
   margin-top: 1em;
