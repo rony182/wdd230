@@ -24,7 +24,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 const banner = document.getElementById('banner');
 const dayNumber=now.getDay();
 console.log(dayNumber);
-if (dayNumber==2) {
+if (dayNumber==5) {
 	banner.classList.add('showme');
 } else {
 	banner.classList.add('hideme')
