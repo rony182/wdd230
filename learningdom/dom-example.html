@@ -35,13 +35,14 @@
         let createList = document.getElementById('item').value;
         if (createList !=='') {
           const newBTN = document.createElement('button');
-          newBTN.innerHTML='DELETE';
+          newBTN.innerHTML='\u274C';
 
           const newLI = document.createElement('li');
           newLI.textContent =createList;
           newLI.appendChild(newBTN);
 
         document.getElementById('list').appendChild(newLI);
+        document.getElementById('item').value='';
         }
 
       });
