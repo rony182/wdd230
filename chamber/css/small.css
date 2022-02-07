@@ -111,8 +111,9 @@ div#banner {
   color: #000000;
   border:3px solid rgb(65, 65, 65);
   text-align: center;
-  padding: 2em;
-  margin-top: 1em;
+  padding: 1em;
+  max-width: 64rem;
+  margin:auto;
   font-size: large;
 }
 div.showme{display: block;}
@@ -126,12 +127,15 @@ main {
     font-family: 'Roboto Mono', monospace;
 }
 
-.f-container p {
-  background-color: #cccccc;
-  border: 1px solid rgb(68, 67, 67);
-}
-p {
+.f-container div {
+  background-color: #b0e2ff;
+  border: 1px solid rgb(67, 68, 68);
   padding: 0.5em;
+}
+
+.hero img{
+  width: 100%;
+  height: auto;
 }
 
 /*----------- FOOTER --------------*/
@@ -140,6 +144,7 @@ footer {
     color:#ffffff;
     padding: .5rem 2%;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 #lastModified {
