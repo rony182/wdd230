@@ -128,15 +128,38 @@ main {
 }
 
 .f-container div {
-  background-color: #b0e2ff;
+  background-color: #77c2f3;
   border: 1px solid rgb(67, 68, 68);
-  padding: 0.5em;
+  padding: 1em;
+  
+}
+.hero {
+  background-image: url('../images/rosario.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 1.5rem;
+  text-align: center;
+  width: 80%;
+  margin: 2rem 10% auto 10%;
+  
+}
+.hero-content p {
+  font-size: 1.1rem;
+}
+.btn {
+  background-color: #0a4f77da;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px 4px 4px 4px;
 }
 
-.hero img{
-  width: 100%;
-  height: auto;
-}
+
+
 
 /*----------- FOOTER --------------*/
 footer {

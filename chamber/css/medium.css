@@ -65,6 +65,13 @@ div#banner{
     grid-column: 2/3;
     grid-row: 5/6;
 }
+.hero{
+    padding: 1em;
+}
+.hero-content {
+    width: 70%;
+    margin: 2rem 15% auto 15%;
+}
 
 /*----------- FOOTER --------------*/
 footer img{
