@@ -5,7 +5,7 @@
 <meta name="description" content="Chamber of commerce project">
 <meta name="author" content="Rony Calderon">
 
-<!-- This start file was build by Paul Cheney  -->
+
 <title>Home - Chamber of commerce Rosario</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
@@ -90,7 +90,10 @@
             </div>
             <div class="weather">
                 <h2>Weather</h2>
-                <p>Sunny today, 30 °C</p>      
+                <p>Cloady today, <span id="degrees">30</span> °F <br>
+                </p>
+                <p>Wind Speed: <span id="wind-speed">3.5</span>km/h</p>
+                <p><span id="wind-chill"></span></p>
             </div>
             <div class="news">
                 <h2>News</h2>
@@ -130,5 +133,6 @@
     &copy; 2022 &bull; Rosario Chamber | Rony Calderon | WDD230 Project | <div id="lastModified"></div>
     </footer>
 <script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>
