@@ -32,7 +32,7 @@
 <!-- HEADER HERE -->
 	<header >
         <section class="h-box">
-            <img src='images/logo.png' alt="Logo-img">
+            <img src='images/logo.webp' alt="Logo-img">
             <section class="headings">
             <h1>Rosario</h1>
             <h2>Chamber of Commerce</h2>
@@ -59,7 +59,13 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <picture></picture>
+        <picture class="picture-hero">
+            <source media="(max-width: 200px)" srcset="images/herosrc200.jpg">
+            <source media="(max-width: 500px)" srcset="images/herosrc500.jpg">
+            <source media="(max-width: 800px)" srcset="images/herosrc800.jpg">
+            <img class="hero-image" src="images/herosrc1100.jpg" alt="Hero Image">
+            
+        </picture>
         
         <h1 class="first-header">Directory</h1>
         <div class="f-container">
@@ -109,7 +115,7 @@
     
 <!-- FOOTER HERE -->   
     <footer>
-        <img src='images/logo.png' alt="Logo-img">
+        <img src='images/logo.webp' alt="Logo-img">
         <div class="f-grid">
             <p class="adress">Rosario Chamber of Commerce <br>
             Adress line 1<br>
