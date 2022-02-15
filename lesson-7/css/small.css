@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+
+}
+img{
+  display: block;
+  margin: 20px auto;
+}
+
+picture img[data-src] {
+  filter: blur(0.5em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 1.5s;
+}
+main{
+  margin:auto;
+  align-content: center;
+}
+h1{
+  text-align: center;
+}
