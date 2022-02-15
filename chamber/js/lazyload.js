@@ -13,7 +13,7 @@ function preloadImage(img) {
 
 const imgOptions= {
   threshold: 1,
-  rootMargin: '0px 0px -50px 0px'
+  rootMargin: '0px 0px -10px 0px'
 };
 
 const imgObserver= new IntersectionObserver((entries, imgObserver) => {
@@ -61,3 +61,4 @@ images.forEach(image => {
 //     loadImages(img);
 //   });
 // }
+
