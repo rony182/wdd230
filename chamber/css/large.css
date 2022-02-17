@@ -10,13 +10,10 @@
 /*----------- BODY --------------*/
 .discover-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
-.discover-p {
-    grid-column: 1/2;
-    grid-row: 1/13;
-}
+
 
 
 /*----------- HEADER --------------*/

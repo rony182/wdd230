@@ -48,6 +48,11 @@ date {
   padding-right: 6rem;
 	background-color: #eee;
 }
+#lastvisit {
+  align-items: center;
+  text-align: center;
+  margin: 0.3rem;
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
