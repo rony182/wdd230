@@ -1,27 +1,33 @@
 body{
-  font-family: Ubuntu, sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
 }
 
 
 table {
 	margin: 10px auto;
-	border: solid var(--border);
-	box-shadow: 0 0 30px var(--shadow);
-	border-collapse: collapse;
-}
-tr:first-child th {
-	background-color: var(--back);
-	color: var(--forelight);
+	border: thin solid #484848;
+	box-shadow: 8px 10px 10px hsl(0, 0%, 28%);
+	text-align: center;
 }
 th, td {
-	padding: 7px 15px;
-	border: 1px solid var(--borderlight);
+  padding: 0.5em 20px;
 }
-
-caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
-	font-size: .85rem;
-  background-color: rgb(12, 151, 139);
+thead tr:first-child th {
+  background-color: rgb(62, 192, 192);
+}
+thead tr:nth-child(2) th{
+  background-color: rgb(19, 92, 92);
+  color: aliceblue;
+}
+tbody tr:nth-child(odd) td{
+  background-color: rgb(215, 250, 238);
+}
+tbody tr:nth-child(4) td:nth-child(3){
+  background-color: rgb(19, 92, 92);
+  color: aliceblue;
+}
+tfoot {
+  font-size: .8rem;
+  background-color: rgb(62, 192, 192);
 }
