@@ -209,7 +209,8 @@ form textarea{
 }
 
 form label.sbs {
-  padding: 1rem;
+  display: block;
+  padding: 0.5rem;
 }
 form label.top input:required, form textarea{
   border: red solid 1.5px;
