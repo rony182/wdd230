@@ -36,6 +36,7 @@ div#banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    margin-top: 0.5rem;
 }
 .hero{
     grid-column: 1/3;
