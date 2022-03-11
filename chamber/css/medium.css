@@ -80,17 +80,19 @@ div#banner{
     gap: 4rem;
 }
 
-/*****************DIRECTORY CSS****************/
-/*****************GRID MODE CSS****************/
+/*----------- FOOTER --------------*/
+/*----------- GRID MODE --------------*/
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1.5em;
   }
 
 .grid section {
-margin: 0.5%;
-display: block;
+    padding: 2em;
+    margin: 1em;
+    display: block;
 }
 .grid section:nth-child(1) {
 grid-column: 1 / 2;
@@ -107,7 +109,7 @@ grid-row: 2 / 3;
 grid-row: 2 / 3;
 grid-column: 2 / 3;
 }
-/****************LIST MODE CSS***************/
+/*----------- LIST MODE --------------*/
 .list section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
