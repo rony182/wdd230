@@ -290,11 +290,13 @@ form input.submitBtn{
   display: flex;
   justify-content: center;
 }
-
+.grid {
+  background-color: #acdeff;
+}
 .grid section {
   text-align: center;
   padding: 1rem;
-  background-color: #acdeff;
+  background-color: #fdfeff;
 }
 .grid img {
   width: 50%;

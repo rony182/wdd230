@@ -80,7 +80,11 @@ div#banner{
     gap: 4rem;
 }
 
-/*----------- FOOTER --------------*/
+/*----------- DIRECTORY --------------*/
+.directory-font {
+    font-size: 0.60em;
+}
+
 /*----------- GRID MODE --------------*/
 
 .grid {
