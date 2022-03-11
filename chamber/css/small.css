@@ -273,6 +273,9 @@ form input.submitBtn{
 
 
 /*----------- DIRECTORY --------------*/
+.directory-font h1{
+  text-align: center;
+}
 
 #gridMode, #listMode{
   background-color: #acdeff;
