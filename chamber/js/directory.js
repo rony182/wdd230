@@ -41,7 +41,7 @@ function displayCompanies(comp){
 
 
   shops.appendChild(companie);
-  lazyload();
+  
 }
 
 let gridBtn = document.querySelector("#gridMode");
@@ -49,7 +49,7 @@ let listBtn = document.querySelector("#listMode");
 let onOff = document.querySelector("#on");
 
 function resize() {
-  if (window.innerWidth > 520 && window.innerWidth < 1021) {
+  if (window.innerWidth > 559 && window.innerWidth < 1028) {
     onOff.setAttribute("class", "list");
   } else {
     onOff.setAttribute("class", "grid");
@@ -65,32 +65,4 @@ gridBtn.addEventListener("click", () => {
   onOff.setAttribute("class", "grid");
 });
 
-function lazyload() {
-  let images = Array.from(document.querySelectorAll("img[data-src]"));
-  const loadImages = (image) => {
-    image.setAttribute("src", image.getAttribute("data-src"));
-    image.onload = () => {
-      image.removeAttribute("data-src");
-    };
-  };
-
-  if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.map((item) => {
-        if (item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
-        }
-      });
-    });
-
-    images.map((img) => {
-      observer.observe(img);
-    });
-  } else {
-    images.map((img) => {
-      load(img);
-    });
-  }
-}
 
