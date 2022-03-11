@@ -295,6 +295,7 @@ form input.submitBtn{
 }
 .grid section {
   text-align: center;
+  margin-bottom: 1em;
   padding: 1rem;
   background-color: #fdfeff;
 }
@@ -307,7 +308,8 @@ form input.submitBtn{
 
 .list section {
   margin: 0;
-  padding: 0.5rem;
+  margin-bottom: 1em;
+  
 }
 
 .list section:nth-child(even) {
