@@ -86,13 +86,12 @@ div#banner{
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 1.5em;
+    
   }
 
 .grid section {
-    padding: 2em;
-    margin: 1em;
-    display: block;
+margin: 0.5%;
+display: block;
 }
 .grid section:nth-child(1) {
 grid-column: 1 / 2;
@@ -114,6 +113,11 @@ grid-column: 2 / 3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0;
+    column-gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
 }
 
 /*----------- FOOTER --------------*/
