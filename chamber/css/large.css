@@ -74,6 +74,36 @@ div#banner{
     grid-row: 3/4;
 }
 
+/*----------- DIRECTORY --------------*/
+.directory-font {
+    font-size: 0.75em;
+}
+
+.shops section {
+    max-width: 100%;
+    margin:auto;
+    
+}
+
+/*----------- GRID MODE --------------*/
+.grid {
+    max-width: 64rem;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid section:nth-child(3) p, .grid section:nth-child(3) a {
+    line-height: 0;
+  }
+  .grid section:nth-child(3) h2 {
+    margin: 0;
+  }
+
+/*----------- LIST MODE --------------*/
+.list {
+max-width: 64rem;
+margin: auto;
+}
+
 
 /*----------- FOOTER --------------*/
 

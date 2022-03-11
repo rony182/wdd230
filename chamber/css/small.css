@@ -272,6 +272,52 @@ form input.submitBtn{
 }
 
 
+/*----------- DIRECTORY --------------*/
+
+#gridMode, #listMode{
+  background-color: #acdeff;
+  border: 2px solid #0a4f77;
+  border-radius: 12px;
+  width: 3em;
+  height: 3em;
+  margin:  0 1em 1em ;
+  cursor: pointer;
+}
+.botons {
+  display: flex;
+  justify-content: center;
+}
+
+.grid section {
+  text-align: center;
+  padding: 1rem;
+  background-color: #acdeff;
+}
+.grid img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+
+.list section {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.list section:nth-child(even) {
+  background-color: #acdeff;
+}
+.list h2 {
+  color: #000;
+  font-family: "Roboto", cursive;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+.list img {
+  display: none;
+}
 
 /*----------- FOOTER --------------*/
 footer {

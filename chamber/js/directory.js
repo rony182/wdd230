@@ -50,7 +50,7 @@ let onOff = document.querySelector("#on");
 
 function resize() {
   if (window.innerWidth > 520 && window.innerWidth < 1021) {
-    onOff.setAttribute("class", "lst");
+    onOff.setAttribute("class", "list");
   } else {
     onOff.setAttribute("class", "grid");
   }
@@ -59,7 +59,7 @@ resize();
 window.onresize = resize;
 
 listBtn.addEventListener("click", () => {
-  onOff.setAttribute("class", "lst");
+  onOff.setAttribute("class", "list");
 });
 gridBtn.addEventListener("click", () => {
   onOff.setAttribute("class", "grid");
