@@ -415,6 +415,76 @@ form input.submitBtn{
   display: none;
 }
 
+/*----------- CONTACT US --------------*/
+
+
+main .contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us h3 {
+  font-size: 1.2rem;
+  color: #0a4f77;
+}
+
+.contact-us h4 {
+  margin-top: 0.5rem;
+}
+
+.contact-us h5 {
+  margin-bottom: 0.1rem;
+  letter-spacing: 0;
+}
+
+.address {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.contact-us h4:last-child {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.gmap {
+  display: block;
+  overflow: hidden;
+  background: none !important;
+
+}
+.gmap picture img{
+  display: block;
+  width: 100%;
+}
+
+main section.contact-info{
+  border: 0;
+}
+
+.contact-info div h5, p{
+  text-align: center;
+}
+
+.contact-info div h5, .contact-info div p a, .contact-info .address a{
+  margin-top: 1rem;
+  color: #0a4f77;
+  text-decoration: none;
+}
+
+div.contact_form{
+  margin-top: 3rem;
+}
+
+div.contact_form input.submitBtn{
+  margin: 0.7rem auto;
+  width: 100%;
+}
+
+
+
 /*----------- FOOTER --------------*/
 footer {
     background-color:#0a4f77;

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Chamber of commerce project">
+<meta name="author" content="Rony Calderon">
+
+
+<title>Home - Chamber of commerce Rosario</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,600;1,100&display=swap" rel="stylesheet">
+
+
+     
+</head>
+<body>
+    <div id="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
+<!-- HEADER HERE -->
+	<header >
+        <section class="h-box">
+            <img src='images/logo.webp' alt="Logo-img">
+            <section class="headings">
+            <h1>Rosario</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        </section>
+        
+        <date></date>
+    </header>
+    
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li class="active"><a href="contact.html">Contact Us</a></li>
+
+                
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+      <section class="contact-us">
+        <h3>CONTACT US</h3>
+       
+        <section class="contact-info">
+         
+          <div class="address">
+            <h4>Rosario Chamber of Commerce</h4>
+            Rosario, Santa Fe 2000, <br />
+            Pellegrini 1055<br />
+            <a href="tel:661111222">+(0341) 525-6879</a>
+
+            <h5>Office Hours:</h5>
+            <p>Monday - Friday 8:00 AM to 4:00 PM</p>
+          </div>
+
+          
+          <div class="gmap">
+            <a href="https://goo.gl/maps/2NYWeJbFzTCc9Wn69" target="_blank">
+              <picture>
+                <source
+                  media="(max-width: 320px)"
+                  srcset="images/maps320.png"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="images/maps600.png"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/maps600.png"
+                />
+                <img
+                  src="images/maps600.png"
+                  alt="Rosario Chamber of Commerce Map"
+                  loading="lazy"
+                  
+                />
+              </picture>
+            </a>
+          </div>
+        </section>
+
+      
+        <section class="contact-info">
+        
+          <div class="point-contact">
+            <h5>--- Points of Contact ---</h5>
+            <p>
+              Rodrigo Guirado<br />
+              President/CEO<br />
+              <a href="mailto:ceo@chamberofcommerce.com">ceo@chamberofcommerce.com</a>
+            </p>
+            
+            <p>
+              Soledad Cribani<br />
+              Operations Assistant<br />
+              <a href="mailto:email@chamberofcommerce.com">email@chamberofcommerce.com</a>
+            </p>
+            
+            <p>
+              Melina Trivon<br />
+              Director of Membership<br />
+              <a href="mailto:membership@chamberofcommerce.com">membership@chamberofcommerce.com</a
+              >
+            </p>
+            
+            <p>
+              Roman Cambony<br />
+              Director of Marketing<br />
+              <a href="mailto:media@chamberofcommerce.com">media@chamberofcommerce.com</a>
+            </p>
+          </div>
+
+         
+          <div class="contact_form">
+            <form method="get" action="contact-thankyou.html">
+              <h5>Alternatively, you can reach us using the form below:</h5>
+              
+                
+                <label class="top"
+                  >Name <span class="req">*</span
+                  ><input
+                    type="text"
+                    name="fname"
+                    pattern="[a-zA-Z\s-]+"
+                    required
+                /></label>
+                <label class="top"
+                  >Email <span class="req">*</span
+                  ><input
+                    type="email"
+                    name="email"
+                    placeholder="someone@gmail.com"
+                    required
+                /></label>
+                <label class="top"
+                  >Phone Number<input
+                    type="tel"
+                    name="phone"
+                    placeholder="1235551234"
+                /></label>
+                <label class="top"
+                  >Business Name/Title <span class="req">*</span
+                  ><input type="text" name="busname" required
+                /></label>
+
+                <div>Questions/Comments</div>
+                <label class="top">
+                  <span class="busdesc">Message</span>
+                  <textarea
+                    name="message"
+                    cols="37"
+                    rows="5"
+                    minlength="50"
+                    maxlength="400"
+                    placeholder="Enter text here (maximum 400 characters)"
+                  ></textarea>
+                </label>
+                
+                <input type="submit" name="submit" value="Send Message" class="submitBtn"
+                />
+              
+            </form>
+          </div>
+        </section>
+      </section>
+       
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <img src='images/logo.webp' alt="Logo-img">
+    <div class="f-grid">
+        <p class="adress">Rosario Chamber of Commerce <br>
+        Pellegrini 1055<br>
+        Rosario, Santa Fe 2000 <br></p>
+        <p class="contact"><a href="mailto:contact@chamberofcommerce.com">contact@chamberofcommerce.com</a> <br>
+          <a href="tel:661111222">+(0341) 525-6879</a> <br>
+        <br>
+        <a href="https://www.google.com.ar/maps/@-32.9455366,-60.6468279,15z">📍 Link to map</a> <br> 
+    </p>
+    </div>
+    
+&copy; 2022 &bull; Rosario Chamber | Rony Calderon | WDD230 Project | <div id="lastModified"></div>
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>
