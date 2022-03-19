@@ -391,3 +391,7 @@ footer {
   clear: both;
 }
 
+footer div a {
+  color: #bddff6;
+  text-decoration: none;
+}
