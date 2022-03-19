@@ -139,7 +139,7 @@ main {
 }
 
 .f-container div {
-  background-color: #acdeff;
+  
   border: 1px solid rgb(67, 68, 68);
   padding: 1em;
   
@@ -152,17 +152,17 @@ main {
   
 }
 .hero-content {
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.70);
   padding: 1.5rem;
   text-align: center;
   width: 80%;
   margin: 2rem 10% auto 10%;
-  
 }
+
 .hero-content p {
   font-size: 1.1rem;
 }
-.btn {
+.btn, .event p button{
   background-color: #0a4f77da;
   color: #ffffff;
   padding: 0.5rem;
@@ -177,7 +177,53 @@ main {
 }
 picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
 
+.event {
+  text-align: center;
+  font-size: 1.1rem;
+  background-image: url('../images/disco.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.event p {
+  background-color: rgba(255, 255, 255, 0.70);
+  padding: 1rem;
+}
+.event p button{
+  margin-top: 1rem;
+}
 
+.sp1 {
+  text-align: center;
+  font-size: 1.3rem;
+  background-image: url('../images/marathon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sp1 p{
+  background-color: rgba(174, 225, 255, 0.7);
+  padding: 1rem;
+}
+
+.sp2 {
+  text-align: center;
+  font-size: 1.3rem;
+  background-image: url('../images/futbol.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sp2 p{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  color: #0e3952;
+}
+.join, .news{
+  background: linear-gradient(180deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
+}
+
+/*----------- Weather ----------------*/
 
 .weather p {
   margin: 0;
@@ -200,8 +246,6 @@ picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
   margin: 0;
   font-size: 2.2rem;
 } 
-
-
 
 .weather img {
   width: 70px;
