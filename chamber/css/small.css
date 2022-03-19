@@ -180,7 +180,7 @@ picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
 .event {
   text-align: center;
   font-size: 1.1rem;
-  background-image: url('../images/disco.png');
+  background-image: url('../images/dance.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
