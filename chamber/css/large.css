@@ -73,6 +73,11 @@ div#banner{
     grid-column: 1/2;
     grid-row: 3/4;
 }
+.c-w-text{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+  } 
 
 /*----------- DIRECTORY --------------*/
 .directory-font {
