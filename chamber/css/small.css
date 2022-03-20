@@ -211,7 +211,7 @@ picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
 
 }
 
-#sp1 p, #sp2 p {
+#sp1 p, #sp2 p, #sp3 p {
   display: block;
 }
 /*----------- Weather ----------------*/
@@ -389,6 +389,8 @@ form input.submitBtn{
 .list section {
   margin: 0;
   margin-bottom: 1em;
+  text-align: center;
+  padding: 1.1rem;
   
 }
 
