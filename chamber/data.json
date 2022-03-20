@@ -4,7 +4,7 @@
       "name": "Estudio Jurídico Integral",
       "address": "Venezuela 1287 Bis",
       "phone": "+54 341 338 7893",
-      "site": "estudio@rosariochamber.com",
+      "site": "estudio@roschamber.com",
       "img": "./images/logo1.png",
       "level": "Gold"
     },
@@ -12,7 +12,7 @@
       "name": "Alimentos Balanceados SRL",
       "address": "Zeballos 4026",
       "phone": "+54 341 436 1128",
-      "site": "mascotas@rosariochamber.com",
+      "site": "mascotas@roschamber.com",
       "img": "./images/logo2.png",
       "level": "Gold"
     },
@@ -20,7 +20,7 @@
       "name": "Metalúrgica Martini",
       "address": "Camilo Aldao 644",
       "phone": "+54 341 525 3792",
-      "site": "martini@rosariochamber.com",
+      "site": "martini@roschamber.com",
       "img": "./images/logo3.png",
       "level": "Gold"
     },
@@ -28,7 +28,7 @@
       "name": "S.O.S Clean",
       "address": "Iriarte 4143",
       "phone": "+54 341 15 587 5495",
-      "site": "sosclean@rosariochamber.com",
+      "site": "sosclean@roschamber.com",
       "img": "./images/logo4.png",
       "level": "Silver"
     },
@@ -36,7 +36,7 @@
       "name": "Mascarella Alfombras",
       "address": "Dorrego 5958",
       "phone": "+54 341 463 1097",
-      "site": "mascarella@rosariochamber.com",
+      "site": "mascarella@roschamber.com",
       "img": "./images/logo5.png",
       "level": "Silver"
     },
@@ -44,7 +44,7 @@
       "name": "Escuela N°1382 Trascender",
       "address": "Av. Arijón 651",
       "phone": "+54 341 15 521 5974",
-      "site": "trascender@rosariochamber.com",
+      "site": "trascender@roschamber.com",
       "img": "./images/logo6.png",
       "level": "Silver"
     },
@@ -52,7 +52,7 @@
       "name": "EficientLimp",
       "address": "Pasaje Gral. Savio 2628",
       "phone": "+54 341 461 2113",
-      "site": "efficient@rosariochamber.com",
+      "site": "efficient@roschamber.com",
       "img": "./images/logo7.png",
       "level": "Silver"
     },
@@ -60,7 +60,7 @@
       "name": "Abogado Penalista",
       "address": "Mariano Moreno 1577",
       "phone": "+54 341 449 1478",
-      "site": "penalista@rosariochamber.com",
+      "site": "penalista@roschamber.com",
       "img": "./images/logo8.png",
       "level": "Bronze"
     },
@@ -68,7 +68,7 @@
       "name": "Álvarez Pisos de Madera",
       "address": "San Martín 2383",
       "phone": "+54 341 15 550 0913",
-      "site": "alvarez@rosariochamber.com",
+      "site": "alvarez@roschamber.com",
       "img": "./images/logo9.png",
       "level": "Bronze"
     },
@@ -76,7 +76,7 @@
       "name": "Tecnología Eléctrica",
       "address": "Grondona 704",
       "phone": "+54 341 15 740 0004",
-      "site": "tecelec@rosariochamber.com",
+      "site": "tecelec@roschamber.com",
       "img": "./images/logo10.png",
       "level": "Bronze"
     },
@@ -84,7 +84,7 @@
       "name": "MagicLimpRosario",
       "address": "3 de febrero 542",
       "phone": "+54 341 15 390 8882",
-      "site": "magic@rosariochamber.com",
+      "site": "magic@roschamber.com",
       "img": "./images/logo13.png",
       "level": "NP"
     },
@@ -92,7 +92,7 @@
       "name": "Naquet - Alimentos Sin Tacc",
       "address": "Rioja 3243",
       "phone": "+54 341 15 550 1963",
-      "site": "naquet@rosariochamber.com",
+      "site": "naquet@roschamber.com",
       "img": "./images/logo12.png",
       "level": "NP"
     }
