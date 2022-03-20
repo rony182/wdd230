@@ -27,7 +27,7 @@
     {
       "name": "S.O.S Clean",
       "address": "Iriarte 4143",
-      "phone": "+54 341 15 587 5495",
+      "phone": "+54 341 587 5495",
       "site": "sosclean@roschamber.com",
       "img": "./images/logo4.png",
       "level": "Silver"
@@ -43,7 +43,7 @@
     {
       "name": "Escuela N°1382 Trascender",
       "address": "Av. Arijón 651",
-      "phone": "+54 341 15 521 5974",
+      "phone": "+54 341 521 5974",
       "site": "trascender@roschamber.com",
       "img": "./images/logo6.png",
       "level": "Silver"
@@ -67,7 +67,7 @@
     {
       "name": "Álvarez Pisos de Madera",
       "address": "San Martín 2383",
-      "phone": "+54 341 15 550 0913",
+      "phone": "+54 341 550 0913",
       "site": "alvarez@roschamber.com",
       "img": "./images/logo9.png",
       "level": "Bronze"
@@ -75,7 +75,7 @@
     {
       "name": "Tecnología Eléctrica",
       "address": "Grondona 704",
-      "phone": "+54 341 15 740 0004",
+      "phone": "+54 341 740 0004",
       "site": "tecelec@roschamber.com",
       "img": "./images/logo10.png",
       "level": "Bronze"
@@ -83,7 +83,7 @@
     {
       "name": "MagicLimpRosario",
       "address": "3 de febrero 542",
-      "phone": "+54 341 15 390 8882",
+      "phone": "+54 341 390 8882",
       "site": "magic@roschamber.com",
       "img": "./images/logo13.png",
       "level": "NP"
@@ -91,7 +91,7 @@
     {
       "name": "Naquet - Alimentos Sin Tacc",
       "address": "Rioja 3243",
-      "phone": "+54 341 15 550 1963",
+      "phone": "+54 341 550 1963",
       "site": "naquet@roschamber.com",
       "img": "./images/logo12.png",
       "level": "NP"
