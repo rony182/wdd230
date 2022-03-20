@@ -193,36 +193,27 @@ picture img:hover {box-shadow: 0 0 50px #333; cursor: pointer;}
   margin-top: 1rem;
 }
 
-.sp1 {
+#sp1{
   text-align: center;
-  font-size: 1.3rem;
-  background-image: url('../images/marathon.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.sp1 p{
-  background-color: rgba(174, 225, 255, 0.7);
-  padding: 1rem;
-}
+  background: linear-gradient(360deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
 
-.sp2 {
+}
+#sp2 {
   text-align: center;
-  font-size: 1.3rem;
-  background-image: url('../images/futbol.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.sp2 p{
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 1rem;
-  color: #0e3952;
-}
-.join, .news{
   background: linear-gradient(180deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
 }
 
+.join, .news{
+  background: linear-gradient(180deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
+}
+.news{
+  background: linear-gradient(360deg, rgb(137, 207, 235) 0%, rgb(49, 87, 153) 100%);
+
+}
+
+#sp1 p, #sp2 p {
+  display: block;
+}
 /*----------- Weather ----------------*/
 
 .weather p {

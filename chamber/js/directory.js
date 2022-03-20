@@ -13,6 +13,8 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
   });
 
+
+
 function displayCompanies(comp){
   let companie=document.createElement('section');
   let img=document.createElement('img');
