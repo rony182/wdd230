@@ -37,7 +37,7 @@ header img {width: 50px; float: left;}
 header h1 {margin: 0 0 0 17px; font-size: 1.3rem; }
 header h2 {margin: 0 0 0 17px; font-weight: normal; font-size: 1rem;}
 
-date {
+#date {
   display: block;
   max-width: 100%;
 	margin: 0.5rem;
