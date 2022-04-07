@@ -1,0 +1,245 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+}
+
+/*----------- HEADER --------------*/
+header, footer {
+  
+  background-color:#F0EBE7 ;
+}
+.h-box {
+  display: flex;
+}
+.h-box img {
+  width: 100%;
+  max-width: 50px;
+  padding: 0.5rem;
+  border-radius: 12px;
+  
+}
+.h-box p {
+  font-size: 1rem;
+  width: 100%;
+  
+  
+}
+.h-grid {
+  display: grid;
+  align-items: center;
+}
+.h-grid picture img {
+  width: 100%;
+  border-radius: 8px;
+}
+.h-grid picture{
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.h-grid h1{
+  grid-column: 1/1;
+  grid-row: 1/1;
+  text-align: center;
+  background-color: #f0ebe7b1;
+  font-size: 3.5rem;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+  background-color: #B6CBDE;
+  border-radius: 8px;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav button {
+margin: .2rem 2vw;
+background-color: #ffffff;
+border: none;
+color: #B6CBDE;
+font-size: 2rem;
+border-radius: 8px;
+}
+
+nav ul li a {
+  display: block;
+  
+  padding: .5rem 2vw;
+  text-decoration: none;
+  font-size: .9rem;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+  background-color: rgb(255, 255, 255);
+  
+  font-style: italic;
+  
+}
+nav ul li a:hover {
+background-color: #64a9d6;
+color: #333;
+}
+nav ul{display: none;}
+nav ul.open {display: block;}
+
+#hamburguerButton span:nth-child(1){
+display: block;
+}
+#hamburguerButton span:nth-child(2){
+display: none;
+}
+#hamburguerButton.open span:nth-child(1){
+display: none;
+}
+#hamburguerButton.open span:nth-child(2){
+display: block;
+}
+
+/*----------- MAIN --------------*/
+main {
+  background-color: #F0EBE7;
+}
+.hero-box {
+  display: grid;
+  align-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+  background-color: #F0EBE7;
+  
+}
+div.hero-box picture img{
+  width: 99%;
+  border-radius: 8px;
+}
+.hero-box picture, .hero-box .hero-call{
+  
+  grid-column: 1/1;
+  grid-row: 1/1;
+  text-align: center;
+}
+.hero-call{
+  display: flex;
+  gap: 5.5rem;
+}
+.hero-call button {
+  padding: 1rem;
+  background-color: #f0ebe7b1;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  
+}
+.hero-call:nth-child(1){
+  justify-content:flex-start;
+}
+.hero-call:nth-child(2){
+  justify-content: center;
+}
+form {
+  background-color: #F0EBE7;
+}
+form label.top {
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+form label.top input{
+  -webkit-appearance: none;
+  display: block;
+  border-radius: 3px;
+  padding: 0.2rem;
+}
+.book-search {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.book-search button{
+  padding: 1rem;
+}
+
+.event {
+  display: grid;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+}
+.event picture, .event p{
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.event picture img {
+  width: 100%;
+  border-radius: 8px;
+}
+.event p {
+  background-color: #f0ebe7b1;
+  text-align: center;
+}
+
+.temples, .services, .missionaries, .receptions{
+  display: grid;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+}
+.temples picture,.temples div, .services picture, .services div, .missionaries picture, .missionaries div, .receptions picture, .receptions div{
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.temples picture img, .services picture img, .missionaries img, .receptions img{
+  width: 100%;
+  border-radius: 8px;
+}
+.temples div, .services div, .missionaries div, .receptions div{
+  text-align: center;
+}
+.temples div button, .services div button, .missionaries div button, .receptions div button{
+  padding: 1rem;
+  background-color: #f0ebe7b1;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 10rem;
+}
+
+
+/*----------- FOOTER --------------*/
+
+.f-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+.f-grid img {
+  width: 100%;
+
+}
+.f-grid p {
+  padding: 1rem;
+  align-items: center;
+}
+.f-social {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.f-social img{
+  max-width: 50px;
+  border-radius: 8px;
+}
