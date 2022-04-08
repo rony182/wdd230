@@ -1,0 +1,28 @@
+@media only screen and (min-width: 34rem) {
+
+  .main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+  }
+
+  .hero-box{
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .book-search {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-bottom: 0.5rem;
+  }
+  .weather{
+    
+    padding-left: 0.2rem;
+  }
+  .c-w-text{
+    padding-left: 0.3rem;
+  }
+
+
+
+}

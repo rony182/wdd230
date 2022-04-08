@@ -118,8 +118,9 @@ main {
   display: grid;
   align-content: center;
   align-items: center;
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   background-color: #F0EBE7;
+  margin-bottom: 0.5rem;
   
 }
 div.hero-box picture img{
@@ -135,6 +136,7 @@ div.hero-box picture img{
 .hero-call{
   display: flex;
   gap: 5.5rem;
+  
 }
 .hero-call button {
   padding: 1rem;
@@ -215,22 +217,60 @@ form label.top input{
   font-size: 1.2rem;
   width: 10rem;
 }
+/*----------- Weather --------------*/
+.week-label{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.week-setup{
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.weather h2{
+  text-align: center;
+}
+.current-weather{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+.c-w-text{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  font-size: small;
+}
+.weather{
+  background-color: #D4E5EF;
+  
+  border-radius: 8px;
+}
 
 
 /*----------- FOOTER --------------*/
 
 .f-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  
   margin-top: 1rem;
 }
 .f-grid img {
-  width: 100%;
-
+  width: 80%;
+  margin-left:20% ;
+  margin-top: 1rem;
+  max-width: 200px;
+  
 }
 .f-grid p {
   padding: 1rem;
   align-items: center;
+  width: 100%;
 }
 .f-social {
   display: flex;
@@ -242,4 +282,9 @@ form label.top input{
 .f-social img{
   max-width: 50px;
   border-radius: 8px;
+  
+}
+footer a{
+  text-decoration: none;
+  color: #64a9d6;
 }

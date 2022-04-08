@@ -39,9 +39,9 @@
         </section>
         <section class="h-grid">
           <picture>
-            <source media="(max-width: 320px)" srcset="images/buenos-aires-320.webp">
-            <source media="(max-width: 540px)" srcset="images/buenos-aires-540.webp">
-            <source media="(max-width: 720px)" srcset="images/buenos-aires-720.webp">
+            <source media="(max-width: 320px)" srcset="images/buenos-aires-320.jpg">
+            <source media="(max-width: 540px)" srcset="images/buenos-aires-540.jpg">
+            <source media="(max-width: 720px)" srcset="images/buenos-aires-720.jpg">
             <img src="images/buenos-aires.jpg" alt="Buenos Aires temple front view">
           </picture>
           <h1>&#126;Temple Inn&#126;</h1>
@@ -57,10 +57,12 @@
         <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="discover.html">Discover</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="directory.html">Directory</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="reception.html">Reception</a></li>
+          <li><a href="missionaries.html">Full-time Missionaries</a></li>
+
 
                 
         </ul>
@@ -68,7 +70,7 @@
     
     
 <!-- CONTENT HERE -->
-    <main>
+    <main class="main-grid">
         <div class="hero-box">
           <picture>
             <source media="(max-width: 320px)" srcset="images/trujillo-peru-temple-320px.png">
@@ -92,8 +94,40 @@
           <button class="submitBtn" type="submit">Search</button>
         </form>
 
-        <section class="weather-info">
-          <p>Current Weather Info</p>
+        <section class="weather">
+          <h2>Current Weather</h2>
+          
+          <section class="current-weather">
+            <img src="#" id="weathericon" alt="" width="50" height="50">
+            <span id="currentTemp"></span>
+          </section>
+          <section class="c-w-text">
+            <p><span id="humidity"></span></p>
+            <p id="weather-desc"></p>
+            <p class="w-speed"><span id="windSpeed"></span>m/s</p>
+          </section>
+          
+         
+          <section class="week-label">
+            <section class="week-setup">
+              <img src="#" id="day-1" alt="#">
+              <p><span id="day-1-temp"></span>
+                <br><span id="day-1-name"></span>
+              </p>
+              
+            </section>
+            <section class="week-setup">
+              <img src="#" id="day-2" alt="#">
+              <p><span id="day-2-temp"></span><br>
+              <span id="day-2-name"></span></p>
+            </section>
+            <section class="week-setup">
+              <img src="#" id="day-3" alt="#">
+              <p><span id="day-3-temp"></span><br>
+              <span id="day-3-name"></span></p>
+            </section>
+          </section>
+          
         </section>
 
         <section class="event">
@@ -120,9 +154,9 @@
 
         <section class="services">
           <picture>
-            <!-- <source media="(max-width: 320px)" srcset="images/mexico-city-temple-320px.jpg">
-            <source media="(max-width: 540px)" srcset="images/mexico-city-temple-540px.jpg">
-            <source media="(max-width: 720px)" srcset="images/mexico-city-temple-720px.jpg"> -->
+            <source media="(max-width: 320px)" srcset="images/hotel-service-320px.jpg">
+            <source media="(max-width: 540px)" srcset="images/hotel-service-540px.jpg">
+            <source media="(max-width: 720px)" srcset="images/hotel-service-720px.jpg">
             <img src="images/hotel-service.jpg" alt="women walking in a hall room">
           </picture>
           <div><button onclick="window.location.href='services.html';">&#126;Services&#126;</button></div>
@@ -130,9 +164,9 @@
 
         <section class="receptions">
           <picture>
-            <!-- <source media="(max-width: 320px)" srcset="images/mexico-city-temple-320px.jpg">
-            <source media="(max-width: 540px)" srcset="images/mexico-city-temple-540px.jpg">
-            <source media="(max-width: 720px)" srcset="images/mexico-city-temple-720px.jpg"> -->
+            <source media="(max-width: 320px)" srcset="images/reception-320px.jpg">
+            <source media="(max-width: 540px)" srcset="images/reception-540px.jpg">
+            <source media="(max-width: 720px)" srcset="images/reception-720px.jpg">
             <img src="images/reception.jpeg" alt="a reception hall ready to a wedding">
           </picture>
           <div><button onclick="window.location.href='reception.html';">&#126;Receptions&#126;</button></div>
@@ -140,9 +174,9 @@
         
         <section class="missionaries">
           <picture>
-            <!-- <source media="(max-width: 320px)" srcset="images/mexico-city-temple-320px.jpg">
-            <source media="(max-width: 540px)" srcset="images/mexico-city-temple-540px.jpg">
-            <source media="(max-width: 720px)" srcset="images/mexico-city-temple-720px.jpg"> -->
+            <source media="(max-width: 320px)" srcset="images/missionaries-320px.jpg">
+            <source media="(max-width: 540px)" srcset="images/missionaries-540px.jpg">
+            <source media="(max-width: 720px)" srcset="images/missionaries-720px.jpg">
             <img src="images/missionaries.jpeg" alt="missionaries talking with families">
           </picture>
           <div><button onclick="window.location.href='missionaries.html';">&#126;Missionaries&#126;</button></div>
@@ -175,6 +209,7 @@
 </footer>
 
 <script src="js/scripts.js"></script>
+<script src="js/weather-api.js"></script>
 
 </body>
 </html>
