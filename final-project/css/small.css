@@ -261,10 +261,10 @@ form label.top input{
   margin-top: 1rem;
 }
 .f-grid img {
-  width: 80%;
-  margin-left:20% ;
+  width: 100%;
   margin-top: 1rem;
   max-width: 200px;
+  padding-right: 1rem;
   
 }
 .f-grid p {
@@ -282,7 +282,7 @@ form label.top input{
 .f-social img{
   max-width: 50px;
   border-radius: 8px;
-  
+  margin-bottom: 1rem;
 }
 footer a{
   text-decoration: none;
