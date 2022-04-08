@@ -262,13 +262,42 @@ form label.top input{
   white-space: -o-pre-wrap;
   display: grid;
   background-color: #D4E5EF;
+  gap: 0.5rem ;
 }
 #temples img{
   width: 100%;
+  border-radius: 8px;
+
 }
 
 #temples section{
+  border-radius: 8px;
+
+  background-color: #ffffff56;
+}
+#temples section h4{
+  background-color: #B6CBDE ;
+  padding: 0.2rem;
+  border-radius: 8px;
+
+}
+#temples section div{
+  background-color: #B6CBDE ;
+  border-radius: 8px;
+}
+#temples section p{
+  display: none;
+}
+#temples section div:hover p{
+  display: block;
+  background-color: #64a9d6;
   padding: 0.5rem;
+  border-radius: 8px;
+
+}
+#temples a{
+  text-decoration: none;
+  display: block;
 }
 
 

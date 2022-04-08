@@ -19,20 +19,27 @@ function displayCompanies(temp){
   let temple=document.createElement('section');
   let img=document.createElement('img');
   let h3=document.createElement('h3');
-  let adress=document.createElement('p');
-  let phone=document.createElement('p');
+  let adress=document.createElement('a');
+  let phone=document.createElement('a');
   let email=document.createElement('a');
   let services=document.createElement('p');
   let history=document.createElement('p');
   let ordinances=document.createElement('p');
   let session=document.createElement('p');
   let closure=document.createElement('p');
-  let h4=document.createElement('h4')
-  let h41=document.createElement('h4')
-  let h42=document.createElement('h4')
-  let h43=document.createElement('h4')
-  let h44=document.createElement('h4')
-
+  let div1=document.createElement('div');
+  let div2=document.createElement('div');
+  let div3=document.createElement('div');
+  let div4=document.createElement('div');
+  let div5=document.createElement('div');
+  let h4=document.createElement('h4');
+  let h41=document.createElement('h4');
+  let h42=document.createElement('h4');
+  let h43=document.createElement('h4');
+  let h44=document.createElement('h4');
+  let btn=document.createElement('button');
+  btn.setAttribute('class','like-btn');
+  btn.textContent='1F44D Like';
   img.setAttribute('src', temp.img);
   img.setAttribute('alt', temp.name);
 
@@ -50,24 +57,30 @@ function displayCompanies(temp){
   ordinances.textContent=temp.ordinances;
   h43.textContent='Sessions';
   session.textContent=temp.session;
-  h4.textContent='Closure Periods';
+  h44.textContent='Closure Periods';
   closure.textContent=temp.closure;
 
   temple.appendChild(img);
+  temple.appendChild(btn);
   temple.appendChild(h3);
   temple.appendChild(adress);
   temple.appendChild(phone);
   temple.appendChild(email);
-  temple.appendChild(h4);
-  temple.appendChild(services);
-  temple.appendChild(h41);
-  temple.appendChild(history);
-  temple.appendChild(h42);
-  temple.appendChild(ordinances);
-  temple.appendChild(h43);
-  temple.appendChild(session);
-  temple.appendChild(h44);
-  temple.appendChild(closure);
+  temple.appendChild(div1);
+  div1.appendChild(h4);
+  div1.appendChild(services);
+  temple.appendChild(div2);
+  div2.appendChild(h41);
+  div2.appendChild(history);
+  temple.appendChild(div3);
+  div3.appendChild(h42);
+  div3.appendChild(ordinances);
+  temple.appendChild(div4);
+  div4.appendChild(h43);
+  div4.appendChild(session);
+  temple.appendChild(div5);
+  div5.appendChild(h44);
+  div5.appendChild(closure);
 
 
   shops.appendChild(temple);
