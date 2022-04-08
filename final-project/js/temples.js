@@ -15,34 +15,62 @@ fetch(requestURL)
 
 
 
-function displayCompanies(comp){
-  let companie=document.createElement('section');
+function displayCompanies(temp){
+  let temple=document.createElement('section');
   let img=document.createElement('img');
   let h3=document.createElement('h3');
   let adress=document.createElement('p');
   let phone=document.createElement('p');
-  let page=document.createElement('a');
+  let email=document.createElement('a');
+  let services=document.createElement('p');
+  let history=document.createElement('p');
+  let ordinances=document.createElement('p');
+  let session=document.createElement('p');
+  let closure=document.createElement('p');
+  let h4=document.createElement('h4')
+  let h41=document.createElement('h4')
+  let h42=document.createElement('h4')
+  let h43=document.createElement('h4')
+  let h44=document.createElement('h4')
 
-  img.setAttribute('src', comp.img);
-  img.setAttribute('alt', comp.name);
-  img.setAttribute('width', 100);
-  img.setAttribute('height', 100);
-
-  h3.textContent=comp.name;
-  adress.textContent=comp.address;
-  phone.textContent=comp.phone;
-
-  page.textContent=comp.site;
-  page.setAttribute('href', comp.site);
-
-  companie.appendChild(img);
-  companie.appendChild(h3);
-  companie.appendChild(adress);
-  companie.appendChild(phone);
-  companie.appendChild(page);
+  img.setAttribute('src', temp.img);
+  img.setAttribute('alt', temp.name);
 
 
-  shops.appendChild(companie);
+  h3.textContent=temp.name;
+  adress.textContent=temp.address;
+  phone.textContent=temp.phone;
+  email.textContent=temp.email;
+  email.setAttribute('href', temp.email);
+  h4.textContent='Services';
+  services.textContent=temp.services;
+  h41.textContent='History';
+  history.textContent=temp.history;
+  h42.textContent='Temple Ordinances';
+  ordinances.textContent=temp.ordinances;
+  h43.textContent='Sessions';
+  session.textContent=temp.session;
+  h4.textContent='Closure Periods';
+  closure.textContent=temp.closure;
+
+  temple.appendChild(img);
+  temple.appendChild(h3);
+  temple.appendChild(adress);
+  temple.appendChild(phone);
+  temple.appendChild(email);
+  temple.appendChild(h4);
+  temple.appendChild(services);
+  temple.appendChild(h41);
+  temple.appendChild(history);
+  temple.appendChild(h42);
+  temple.appendChild(ordinances);
+  temple.appendChild(h43);
+  temple.appendChild(session);
+  temple.appendChild(h44);
+  temple.appendChild(closure);
+
+
+  shops.appendChild(temple);
   
 }
 // let gridBtn = document.querySelector("#gridMode");

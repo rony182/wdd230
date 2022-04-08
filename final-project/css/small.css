@@ -22,6 +22,7 @@ header, footer {
 }
 .h-box img {
   width: 100%;
+  height: 100%;
   max-width: 50px;
   padding: 0.5rem;
   border-radius: 12px;
@@ -76,7 +77,7 @@ border-radius: 8px;
 
 nav ul li a {
   display: block;
-  
+  color: #235271;
   padding: .5rem 2vw;
   text-decoration: none;
   font-size: .9rem;
@@ -124,7 +125,7 @@ main {
   
 }
 div.hero-box picture img{
-  width: 99%;
+  width: 100%;
   border-radius: 8px;
 }
 .hero-box picture, .hero-box .hero-call{
@@ -135,29 +136,27 @@ div.hero-box picture img{
 }
 .hero-call{
   display: flex;
-  gap: 5.5rem;
+  justify-content: center;
   
 }
 .hero-call button {
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #f0ebe7b1;
   border-radius: 8px;
   font-size: 1.2rem;
-  
 }
-.hero-call:nth-child(1){
-  justify-content:flex-start;
-}
-.hero-call:nth-child(2){
-  justify-content: center;
-}
+
+
+
 form {
   background-color: #F0EBE7;
+  
 }
 form label.top {
   display: block;
   padding-bottom: 0.5rem;
   text-align: center;
+  
 }
 form label.top input{
   -webkit-appearance: none;
@@ -169,10 +168,12 @@ form label.top input{
   display: flex;
   gap: 1rem;
   justify-content: center;
+  width: 100%;
 }
 .book-search button{
   padding: 1rem;
 }
+
 
 .event {
   display: grid;
@@ -251,6 +252,26 @@ form label.top input{
   
   border-radius: 8px;
 }
+
+/*----------- Temples --------------*/
+
+#temples {
+  text-align: center;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  display: grid;
+  background-color: #D4E5EF;
+}
+#temples img{
+  width: 100%;
+}
+
+#temples section{
+  padding: 0.5rem;
+}
+
+
 
 
 /*----------- FOOTER --------------*/
