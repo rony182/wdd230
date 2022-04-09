@@ -260,6 +260,12 @@ form label.top input{
   border-radius: 8px;
 }
 
+#lastModified{
+  text-align: center;
+  background-color: #ffffff6b;
+  margin-top: 0.2rem;
+  padding: 0.5rem;
+}
 /*----------- Temples --------------*/
 
 #temples {
