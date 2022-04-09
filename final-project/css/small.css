@@ -299,6 +299,15 @@ form label.top input{
   text-decoration: none;
   display: block;
 }
+#temples button{
+  padding: 0.2rem 1rem;
+  font-size: large;
+  background-color: #64a9d6;
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+  outline: none;
+}
 
 
 

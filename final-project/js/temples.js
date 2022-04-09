@@ -1,16 +1,44 @@
 
 const requestURL='https://rony182.github.io/wdd230/final-project/temples.json';
 
-const shops=document.querySelector('#temples');
+const temples=document.querySelector('#temples');
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+    
     companies= jsonObject['temples'];
     companies.forEach(displayCompanies);
+    
+  
+  
+  let allIcons=document.querySelectorAll('#like-icon');
+  let allbuttons=document.querySelectorAll('.like-btn');
+  let clicked=false;
+  for (let i = 0; i < 4; i++){
+    const lastlike=window.localStorage.getItem(`liked${i}`);
+    if (lastlike==i){
+      allIcons[i].innerHTML=`<i class="fa-solid fa-thumbs-up"></i>`
+    }
+    allbuttons[i].addEventListener('click', () =>{
+      
+        if (!clicked){
+        clicked=true;
+        allIcons[i].innerHTML=`<i class="fa-solid fa-thumbs-up"></i>`
+
+        localStorage.setItem(`liked${i}`, i )
+      } else {
+        clicked=false;
+        allIcons[i]=innerHTML=`<i class="fa-regular fa-thumbs-up"></i>`
+      }
+      
+      
+    });
+  }
+  
+  
   });
 
 
@@ -38,11 +66,18 @@ function displayCompanies(temp){
   let h43=document.createElement('h4');
   let h44=document.createElement('h4');
   let btn=document.createElement('button');
+  let spn=document.createElement('span');
+  let theI=document.createElement('i');
+  theI.setAttribute('class', 'fa-regular fa-thumbs-up');
+  spn.setAttribute('id', 'like-icon')
   btn.setAttribute('class','like-btn');
-  btn.textContent='1F44D Like';
+  btn.setAttribute('type', 'button');
+  btn.textContent='Like ';
   img.setAttribute('src', temp.img);
   img.setAttribute('alt', temp.name);
-
+  spn.appendChild(theI);
+  btn.appendChild(spn);
+  
 
   h3.textContent=temp.name;
   adress.textContent=temp.address;
@@ -82,10 +117,12 @@ function displayCompanies(temp){
   div5.appendChild(h44);
   div5.appendChild(closure);
 
-
-  shops.appendChild(temple);
+  temples.appendChild(temple);
+  
   
 }
+
+
 // let gridBtn = document.querySelector("#gridMode");
 // let listBtn = document.querySelector("#listMode");
 // let onOff = document.querySelector("#on");
