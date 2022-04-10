@@ -336,7 +336,7 @@ form label.top input{
 
 .reservation form{
   max-width: 35rem;
-  text-indent: 0.2rem;
+  text-indent: 0.3rem;
 }
 .reservation form fieldset{
   background-color: #D4E5EF ;
@@ -369,6 +369,38 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   background-color: #193d5e;
   color: #ffffff;
 }
+
+
+/*----------- Thank You --------------*/
+
+.thanks {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  align-items: center;
+}
+.thanks .thanks-item {
+  text-align: center;
+  font-size: 50px;
+
+}
+.thanks h1{
+  font-size: xx-large;
+}
+.thanks p {
+  font-size: larger;
+}
+.thanks a {
+  color: rgb(0, 0, 0);
+  background-color: #64a9d6;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
 
 /*----------- FOOTER --------------*/
 
