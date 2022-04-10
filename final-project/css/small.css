@@ -408,20 +408,23 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   
 }
 .services-page ul li{
-  list-style-type: none;
-  display: block;
   width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
-  text-indent: 0.5rem;
+padding: 1rem;
+max-width: 32rem;
+
   
+
+}
+.services-page ul{
+  background-color: #D4E5EF;
+  border-radius: 12px;
+  max-width: 32rem;
 
 }
 .services-page img{
   width: 100%;
   border-radius: 12px;
-  margin-right: 20%;
-  max-width: 32rem;
+  max-width: 34.9rem;
 }
 /*----------- Missionaries --------------*/
 

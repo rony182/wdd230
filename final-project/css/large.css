@@ -66,4 +66,7 @@
   .services, .missionaries{
     grid-column: 3/5;
   }
+  .services-page ul{
+    max-width: 70rem;
+  }
 }
