@@ -420,6 +420,7 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   width: 100%;
   border-radius: 12px;
   margin-right: 20%;
+  max-width: 32rem;
 }
 /*----------- Missionaries --------------*/
 
