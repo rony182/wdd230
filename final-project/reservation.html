@@ -83,12 +83,12 @@
           <fieldset>
             <legend>Payment method</legend>
             <label class="top" for="card">Card Type*
-              <select id="card" name="card" required>
+              <select id="card" name="card" aria-placeholder="visa" required>
                 <option value="Visa">Visa</option>
                 <option value="Mastercard">Mastercard</option>
                 <option value="American">American Express</option>
               </select>
-            <label class="top place" for="ccn">Credit Card Number* <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"required></label>
+            <label class="top place" for="ccn">Credit Card Number* <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required></label>
             <label class="top" for="card-holder">Card Holder* <input id="card-holder" type="text" required></label>
             <label>Expiration Date*<select name='expireMM' id='expireMM' required>
               <option value=''>Month</option>
