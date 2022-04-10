@@ -151,7 +151,7 @@ form {
   background-color: #F0EBE7;
   
 }
-form label.top {
+.main-grid form label.top {
   display: block;
   padding-bottom: 0.5rem;
   text-align: center;
@@ -322,8 +322,53 @@ form label.top input{
   outline: none;
 }
 
+/*----------- Reservation --------------*/
 
+.reservation form label.top {
+  display: block;
+  padding-bottom: 0.6rem;
+}
+.reservation form label.top input, .reservation form label select, .reservation form label textarea{
+  display: block;
+  border-radius: 12px;
+  border-color: #fdfcfc8a;
+}
 
+.reservation form{
+  max-width: 35rem;
+  text-indent: 0.2rem;
+}
+.reservation form fieldset{
+  background-color: #D4E5EF ;
+  border-radius: 12px;
+  border-color: #64a9d6;
+}
+
+.reservation form label select{
+  padding: 0.3rem ;
+  width: 100%;
+  max-width: 14rem;
+  margin-bottom: 0.2rem;
+}
+.reservation form label.place{
+  padding-top: 0.6rem ;
+}
+.reservation form label input, .reservation form label textarea{
+  width: 100%;
+  max-width: 30rem;
+  
+}
+.reservation form label.top input:required, .reservation form label select ,.reservation form label.datte{
+  border-left: red solid 4px;
+}
+form label.top input:required:valid, form label.top textarea:required:valid{
+  border-left: green solid 8px;
+}
+.submitBtn {
+  padding: 12rem 30px;
+  background-color: #193d5e;
+  color: #ffffff;
+}
 
 /*----------- FOOTER --------------*/
 
