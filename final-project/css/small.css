@@ -401,6 +401,22 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   margin-bottom: 2rem;
 }
 
+/*----------- Services --------------*/
+
+.services-page h2 {
+  text-align: center;
+  
+}
+.services-page ul li{
+  list-style-type: none;
+  
+
+  text-align: center;
+}
+.services-page img{
+  width: 100%;
+}
+
 
 /*----------- FOOTER --------------*/
 
