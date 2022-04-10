@@ -84,11 +84,12 @@
             <legend>Payment method</legend>
             <label class="top" for="card">Card Type*
               <select id="card" name="card" required>
+                <option value="">Please Select</option>
                 <option value="Visa">Visa</option>
                 <option value="Mastercard">Mastercard</option>
                 <option value="American">American Express</option>
-              </select>
-            <label class="top place" for="ccn">Credit Card Number* <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required></label>
+              </select></label>
+            <label class="top place" for="ccn">Credit Card Number* <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required></label>
             <label class="top" for="card-holder">Card Holder* <input id="card-holder" type="text" required></label>
             <label>Expiration Date*<select name='expireMM' id='expireMM' required>
               <option value=''>Month</option>
@@ -104,51 +105,54 @@
               <option value='10'>October</option>
               <option value='11'>November</option>
               <option value='12'>December</option>
-          </select> 
-          <select name='expireYY' id='expireYY' required>
+          </select></label>
+          <label><select name='expireYY' id='expireYY' required>
               <option value=''>Year</option>
               <option value='20'>2020</option>
               <option value='21'>2021</option>
               <option value='22'>2022</option>
               <option value='23'>2023</option>
               <option value='24'>2024</option>
-          </select> </label>
+          </select></label>
           <label class="top place" for="cvv-code">CVV Code*<input id="cvv-code" maxlength="3" type="text" pattern="[0-9]" placeholder="XXX" required></label>
           </fieldset>
           <fieldset>
             <legend>Reservation specifics</legend>
             <label class="top date" for="start">Check-in*<input type="date" id="start" name="trip-start" value="2022-04-06" min="2022-04-01" max="2023-12-31"></label>
             <label class="top date" for="end">Check-out*<input type="date" id="end" name="trip-start" value="2022-04-07"
-            min="2022-04-01" max="2023-12-31">
+            min="2022-04-01" max="2023-12-31"></label>
             <label class="top place" for="place">Select the place*
               <select id="place" name="place" required>
+                <option value="">Please Select</option>
                 <option value="bsas">Buenos Aires</option>
                 <option value="arequipa">Arequipa</option>
                 <option value="asuncion">Asunción</option>
                 <option value="montevideo">Montevideo</option>
                 <option value="lima">Lima</option>
                 <option value="Guayaquil">Guayaquil</option>
-
-              </select>
-            </label>
+              </select></label>
+              
             <label class="top" for="rooms">Select how many rooms*
               <select id="rooms" name="rooms" required>
+                <option value="">Please Select</option>
                 <option value="1">1 </option>
                 <option value="2">2 </option>
                 <option value="3">3 </option>
-              </select>
-            </label>
+              </select></label>
             <label class="top" for="Adults">Select how many Adults*
               <select id="Adults" name="Adults" required>
+                <option value="">Please Select</option>
+
                 <option value="1">1 </option>
                 <option value="2">2 </option>
                 <option value="3">3 </option>
                 <option value="4">4 </option>
                 <option value="5">5 </option>
-              </select>
-            </label>
+              </select></label>
             <label class="top" for="Children">Select how many Children*
               <select id="Children" name="Children" required>
+                <option value="">Please Select</option>
+
                 <option value="0">0 </option>
                 <option value="1">1 </option>
                 <option value="2">2 </option>
@@ -162,11 +166,9 @@
           <label for="cellphone" class="top">Cellphone Number* <input id="cellphone" type="tel" required></label>
           
           <label for="request" class="top">Especial Request
-            <textarea id="request" name="especialRequest" rows="4" cols="30" ></textarea>
-          </label>
+            <textarea id="request" name="especialRequest" rows="4" cols="30" ></textarea></label>
           <input type="hidden" id="setCurrentTime" name="date" value="">
           <input class="submitBtn" type="submit" value="Book Now!">
-
         </fieldset>
 
 

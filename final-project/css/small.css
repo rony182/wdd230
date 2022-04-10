@@ -449,7 +449,7 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   border-radius: 12px;
 
 }
-.missionaries-page section h3 {
+.missionaries-page section h3,.missionaries-page div h3 {
   text-align: center;
 }
 .missionaries-page img {
