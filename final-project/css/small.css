@@ -460,6 +460,18 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   border-radius: 12px;
 }
 
+/*----------- Reception --------------*/
+.reception-page {
+  padding: 1rem;
+}
+.reception-page ul{
+  background-color: #D4E5EF;
+  border-radius: 12px;
+  padding: 0.7rem;
+  list-style-type: none;
+
+}
+
 
 
 
