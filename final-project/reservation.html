@@ -118,7 +118,7 @@
           <fieldset>
             <legend>Reservation specifics</legend>
             <label class="top date" for="start">Check-in*<input type="date" id="start" name="trip-start" value="2022-04-06" min="2022-04-01" max="2023-12-31"></label>
-            <label class="top date" for="start">Check-out*<input type="date" id="start" name="trip-start" value="2022-04-07"
+            <label class="top date" for="end">Check-out*<input type="date" id="end" name="trip-start" value="2022-04-07"
             min="2022-04-01" max="2023-12-31">
             <label class="top place" for="place">Select the place*
               <select id="place" name="place" required>
@@ -157,11 +157,12 @@
                 <option value="5">5 </option>
               </select>
             </label>
-          <label class="top">Email* (You will receive a confirmation E-mail) <input type="email" name="email" placeholder="example@company.com" required></label>
-          <label class="top">Cellphone Number* <input type="tel" required></label>
+          <label for="email" class="top">Email* (You will receive a confirmation E-mail) <input type="email" name="email" id="email"
+            placeholder="example@company.com" required></label>
+          <label for="cellphone" class="top">Cellphone Number* <input id="cellphone" type="tel" required></label>
           
-          <label class="top">Especial Request
-            <textarea name="especialRequest" rows="4" cols="30" ></textarea>
+          <label for="request" class="top">Especial Request
+            <textarea id="request" name="especialRequest" rows="4" cols="30" ></textarea>
           </label>
           <input type="hidden" id="setCurrentTime" name="date" value="">
           <input class="submitBtn" type="submit" value="Book Now!">
