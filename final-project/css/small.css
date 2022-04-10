@@ -469,6 +469,7 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   border-radius: 12px;
   padding: 0.7rem;
   list-style-type: none;
+  max-width: 32rem;
 
 }
 
