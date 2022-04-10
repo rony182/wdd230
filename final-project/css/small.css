@@ -409,12 +409,18 @@ form label.top input:required:valid, form label.top textarea:required:valid{
 }
 .services-page ul li{
   list-style-type: none;
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  text-indent: 0.5rem;
   
 
-  text-align: center;
 }
 .services-page img{
   width: 100%;
+  border-radius: 12px;
+  margin-right: 20%;
 }
 
 
