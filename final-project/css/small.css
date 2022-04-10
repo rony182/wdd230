@@ -365,7 +365,6 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   border-left: green solid 8px;
 }
 .submitBtn {
-  padding: 12rem 30px;
   background-color: #193d5e;
   color: #ffffff;
 }
@@ -422,6 +421,46 @@ form label.top input:required:valid, form label.top textarea:required:valid{
   border-radius: 12px;
   margin-right: 20%;
 }
+/*----------- Missionaries --------------*/
+
+.missionaries-page div form .top-m{
+  display: block;
+  margin-top: 1rem;
+}
+.missionaries-page div form label input{
+  display: block;
+  padding: 0.75rem 25px;
+  border-radius: 12px;
+  
+}
+.missionaries-page div form label textarea {
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 25rem;
+
+}
+.missionaries-page div form {
+  padding: 1rem;
+  text-indent: 0.5rem;background-color: #D4E5EF;
+  border-radius: 12px;
+
+}
+.missionaries-page section h3 {
+  text-align: center;
+}
+.missionaries-page img {
+  border-radius: 12px;
+  width: 100%;
+}
+.missionaries-page .submitBtn{
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 12px;
+}
+
+
 
 
 /*----------- FOOTER --------------*/

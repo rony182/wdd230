@@ -59,11 +59,11 @@
         <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="temples.html">Temples</a></li>
+          <li><a href="temples.html">Temples</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="reception.html">Reception</a></li>
-          <li><a href="missionaries.html">Full-time Missionaries</a></li>
+          <li class="active"><a href="missionaries.html">Full-time Missionaries</a></li>
 
 
                 
@@ -72,12 +72,74 @@
     
     
 <!-- CONTENT HERE -->
-    <main>
+    <main class="missionaries-page">
+      <h2>Full Time Missionaries</h2>
+
+      <div class="contact_form">
+       
+        <form method="get" action="contact-thankyou.html">
+          
+            
+            <label class="top-m"
+              >Name <span class="req">*</span
+              ><input
+                type="text"
+                name="fname"
+                pattern="[a-zA-Z\s-]+"
+                required
+            /></label>
+            <label class="top-m"
+              >Email <span class="req">*</span
+              ><input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top-m"
+              >Phone Number<input
+                type="tel"
+                name="phone"
+                placeholder="1235551234"
+            /></label>
+            
+
+            
+            <label class="top-m">
+              Message: 
+              <textarea class="top-m"
+                name="message"
+                cols="37"
+                rows="5"
+                minlength="50"
+                maxlength="400"
+                placeholder="Enter text here (maximum 400 characters)"
+              ></textarea>
+            </label>
+            
+            <input type="submit" name="submit" value="Send Message" class="submitBtn"
+            />
+          
+        </form>
+        </div>
+        <section>
+          <h3>kitchenette option</h3>
+<img loading="lazy" src="images/kitchenette3.webp" alt="Buenos Aires temple front view">
+        </section>
+        <section>
+          <h3>kitchenette option 2</h3>
+
+          <img loading="lazy" src="images/kitchenette2.webp" alt="Buenos Aires temple front view">
+
+        </section>
+        <section>
+          <h3>kitchenette option 3</h3>
+          <img loading="lazy" src="images/kitchenette1.webp" alt="Buenos Aires temple front view">
+
+          
+
+        </section>
       
-      
-      <div class="temples-grid" id="temples"><h2>Temples</h2>
-      
-      </div>
       
     </main>
     
@@ -103,10 +165,11 @@
     </div>
 
 </footer>
-
+<script src="js/temples.js"></script>
 
 <script src="js/scripts.js"></script>
 
 
 </body>
 </html>
+
