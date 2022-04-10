@@ -404,6 +404,7 @@ form label.top input:required:valid, form label.top textarea:required:valid{
 
 .services-page h2 {
   text-align: center;
+  padding: 1rem;
   
 }
 .services-page ul li{
