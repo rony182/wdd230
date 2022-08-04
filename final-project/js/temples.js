@@ -10,7 +10,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     
     companies= jsonObject['temples'];
-    companies.forEach(displayCompanies);
+    companies.forEach(displayTemples);
     
   
   
@@ -20,18 +20,20 @@ fetch(requestURL)
   for (let i = 0; i < 4; i++){
     const lastlike=window.localStorage.getItem(`liked${i}`);
     if (lastlike==i){
-      allIcons[i].innerHTML=`<i class="fa-solid fa-thumbs-up"></i>`
+      allIcons[i].innerHTML=`<i class="fa-solid fa-thumbs-up"></i>`;
+      clicked=true;
     }
     allbuttons[i].addEventListener('click', () =>{
       
         if (!clicked){
         clicked=true;
-        allIcons[i].innerHTML=`<i class="fa-solid fa-thumbs-up"></i>`
+        allIcons[i].innerHTML = `<i class="fa-solid fa-thumbs-up"></i>`;
 
-        localStorage.setItem(`liked${i}`, i )
+        localStorage.setItem(`liked${i}`, i );
       } else {
         clicked=false;
-        allIcons[i]=innerHTML=`<i class="fa-regular fa-thumbs-up"></i>`
+        allIcons[i].innerHTML = `<i class="fa-regular fa-thumbs-up"></i>`;
+        localStorage.removeItem(`liked${i}`, i );
       }
       
       
@@ -43,7 +45,7 @@ fetch(requestURL)
 
 
 
-function displayCompanies(temp){
+function displayTemples(temp){
   let temple=document.createElement('section');
   let img=document.createElement('img');
   let h3=document.createElement('h3');
@@ -83,7 +85,7 @@ function displayCompanies(temp){
   adress.textContent=temp.address;
   phone.textContent=temp.phone;
   email.textContent=temp.email;
-  email.setAttribute('href', temp.email);
+  email.setAttribute('href', `mailto:${temp.email}`);
   h4.textContent='Services';
   services.textContent=temp.services;
   h41.textContent='History';
